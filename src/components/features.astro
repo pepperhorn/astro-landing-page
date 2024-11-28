@@ -5,50 +5,32 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "Bring Your Own Framework",
+    title: "Ranges Music Network",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "mdi:handshake",
+      "#playtolearn with in-school music and community education programs.  Visit rangesmusic.net for more information.",
+    icon: "ourlogos/rmnsq",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "MRYIM",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "mdi:feather",
+      "Creative Ranges will build on the success of the Macedon Ranges Youth In Music Stages.",
+    icon: "ourlogos/mryim",
   },
   {
-    title: "On-Demand Components",
+    title: "Events, Festivals and more",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page. If the user never sees it, they never load it.",
-    icon: "mdi:directions-fork",
+      "Creative Ranges will continue the established Ranges Events brand to bring new and innovative festivals, performances and experiences to the Macedon Ranges -- while supporting lifelong learning!",
+    icon: "ourlogos/rangeseventssq",
   },
-  {
-    title: "Broad Integration",
-    description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any of your favorite npm packages.",
-    icon: "mdi:graph",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication.",
-    icon: "mdi:search-web",
-  },
-  {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "mdi:account-group",
-  },
+  
 ];
 ---
 
-<ContentSection title="Features" id="features">
+<ContentSection title="Bringing together" id="features">
   <Fragment slot="lead">
-    Astro comes <span class="text-primary">batteries included</span>. It takes
-    the best parts of
-    <span class="text-primary">state-of-the-art</span>
-    tools and adds its own <span class="text-primary">innovations</span>.
+    Community music programs like the <span class="text-primary">Ranges Music Network</span> and youth stage <span class="text-primary">MRYIM</span>. Local and private events with supported workplace learning opportunities through
+    <span class="text-primary">Ranges Events.</span>
+    Working towards a new place to connect, share and <span class="text-primary">create</span>.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
@@ -64,3 +46,4 @@ const features: Array<FeatureItem> = [
     }
   </ul>
 </ContentSection>
+<div class="grid grid-cols-4 place-items-center text-center"><span>The Creative Ranges Foundation. A not-for-profit community organization.</span><span>Email: <a href="mailto:info@creativeranges.org" target="_blank">info@creativeranges.org</a></span><span>Phone: 044 992 2425.</span><span>ABN 25682587300.</span></div>

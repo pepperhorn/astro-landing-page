@@ -7,8 +7,8 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   site: "https://creativeranges.org/",
-  integrations: [tailwind(), icon( {iconDir: "src/icons"})],
-  output: "static",
+  integrations: [tailwind(), icon( )],
+  output: "server",
 
   adapter: node({
     mode: "standalone",

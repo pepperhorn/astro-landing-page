@@ -5,24 +5,34 @@ import type { FooterLink } from "~/types";
 
 const links: Array<FooterLink> = [
   {
-    url: "https://astro.build/",
-    description: "Astro's official website",
+    url: "https://creativeranges.org/",
+    description: "Home",
     icon: "mdi:home",
   },
   {
-    url: "https://github.com/mhyfritz/astro-landing-page",
-    description: "View source on GitHub",
-    icon: "fa-brands:github-alt",
+    url: "https://rangesmusic.net",
+    description: "Visit the Ranges Music Network",
+    icon: "ourlogos/rmnsq",
   },
   {
-    url: "https://astro.build/chat",
-    description: "Astro on Discord",
-    icon: "fa-brands:discord",
+    url: "https://mryim.au",
+    description: "MRYIM",
+    icon: "ourlogos/mryim",
   },
   {
-    url: "https://twitter.com/astrodotbuild",
-    description: "Astro on Twitter",
-    icon: "fa-brands:twitter",
+    url: "https://facebook.com/creativeranges/",
+    description: "Creative Ranges on Facebook",
+    icon: "fa-brands:facebook",
+  },
+  {
+    url: "https://instagram.com/creativeranges/",
+    description: "Creative Ranges on Instagram",
+    icon: "fa-brands:instagram",
+  },
+  {
+    url: "https://tiktok.com/creativeranges/",
+    description: "Creative Ranges on TikTok",
+    icon: "fa-brands:tiktok",
   },
 ];
 ---
@@ -31,7 +41,7 @@ const links: Array<FooterLink> = [
   <div class="absolute inset-0 overflow-hidden opacity-40">
     <HeroImage />
   </div>
-  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
+  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-6">
     {
       links.map((link) => (
         <li>
