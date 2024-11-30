@@ -8,9 +8,6 @@ import node from "@astrojs/node";
 export default defineConfig({
   site: "https://creativeranges.org/",
   integrations: [tailwind(), icon( )],
-  output: "server",
+  output: "static",
 
-  adapter: node({
-    mode: "standalone",
-  }),
 });
